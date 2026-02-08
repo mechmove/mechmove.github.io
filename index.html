@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom Whang — Home</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #222;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .intro {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>👋 Yes, I am back.</h1>
+
+    <div class="intro">
+        <p>I’m not dead — I was resting.<br>
+        <em>(wink wink, nudge nudge… Dead Parrot, Monty Python)</em></p>
+
+        <p>Over the last couple of years, I came to the realization that my C# skills weren’t where I wanted them to be. I always knew this, and being in my early 60s, I figured it didn’t matter much since I wasn’t in the workforce anymore. Ironically, I kept writing code anyway — constantly — and enjoying it. So now I’m open to going back to work if the right opportunity comes along.</p>
+
+        <p>What I didn’t want was for my legacy to be one of mediocrity.  
+        “He was a hard‑working programmer, BUT…”  
+        No thank you.</p>
+
+        <p>So I went quiet, rolled up my sleeves, and rewrote several of my personal projects — especially my USB and COM port drivers for legacy flight‑simulation hardware — using solid architectural principles instead of the old “it works, don’t touch it” approach.</p>
+
+        <p>I’ll be opening these projects up over time as the code becomes more polished and serviceable. If you’re curious, learning, or just enjoy seeing how someone else solves problems, feel free to explore.</p>
+
+        <p>If you want to interact, this is the place. I have a limited social media presence, and I don’t go there much — <strong>GitHub is my little corner of the internet.</strong></p>
+    </div>
+
+    <h2>Projects</h2>
+    <p>More coming soon as I open up my rewritten codebases.</p>
+
+    <ul>
+        <li>USB Driver for Legacy Flight Sim Hardware (coming soon)</li>
+        <li>COM Port Driver Rewrite (coming soon)</li>
+        <li>Reusable Interface/Contract Pattern (coming soon)</li>
+    </ul>
+
+    <div class="footer">
+        <p>© <span id="year"></span> Tom Whang</p>
+    </div>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
